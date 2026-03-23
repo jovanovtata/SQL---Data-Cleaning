@@ -10,7 +10,7 @@ The project follows a four-phase cleaning pipeline, with each phase documented i
 
 ## Dataset
 
-- **Source:** [Alex The Analyst – Data Cleaning in MySQL](https://www.youtube.com/watch?v=4UltKCnnnTA)
+- **Source:** in tables, import dataset from `layoffs.csv` file, import as raw data (2361 records)
 - **Table:** `layoffs` (imported into the `world_layoffs` schema)
 - **Columns:** `company`, `location`, `industry`, `total_laid_off`, `percentage_laid_off`, `date`, `stage`, `country`, `funds_raised_millions`
 
@@ -23,7 +23,8 @@ The project follows a four-phase cleaning pipeline, with each phase documented i
 ├── removing_duplicates.sql
 ├── standardizing_data.sql
 ├── null_blank_values.sql
-└── remove_columns.sql
+├── remove_columns.sql
+└── layoffs.csv
 ```
 
 ---
